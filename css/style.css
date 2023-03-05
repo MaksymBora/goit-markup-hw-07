@@ -49,7 +49,8 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1158px;
+  /* width: 1158px; */
+  width: 100%;
 }
 
 .section {
@@ -87,7 +88,8 @@ img {
 }
 
 .menu {
-  display: flex;
+  /* display: flex; */
+  display: none;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -150,7 +152,8 @@ img {
 /* ============ Address ========== */
 
 .contacts {
-  display: flex;
+  /* display: flex; */
+  display: none;
   margin-left: auto;
 }
 
@@ -187,20 +190,172 @@ img {
   margin-left: 40px;
 }
 
+/*===== Mobile Header =======*/
+
+.menu-btn {
+  display: none;
+}
+
+.mob-menu {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  z-index: 999;
+
+  background-color: var(--btn-hero-color);
+}
+
+.mob-menu-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.mob-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.mob-menu-link.current {
+  color: var(--btn-hover-color);
+}
+
+.mob-menu-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.mob-menu-list .mob-menu-link:hover,
+.mob-menu-list .mob-menu-link:focus {
+  color: var(--logo-color);
+}
+
+.mob-menu-list .mob-menu-link:active {
+  color: var(--logo-color);
+}
+
+/* Contacts */
+
+.mob-contacts {
+  margin-bottom: 48px;
+}
+
+.mob-contacts-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mob-contacts-item {
+  margin-bottom: 40px;
+}
+
+.mob-contacts-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.mob-contacts-link.phone {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--logo-color);
+}
+
+.mob-contacts-link:hover,
+.mob-contacts-link:focus {
+  color: var(--logo-color);
+}
+
+.mob-contacts-link:active {
+  color: var(--logo-color);
+}
+
+/* Social links */
+
+.mob-soc-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 56px;
+}
+
+.mob-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--btn-bg-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-soc-link:hover,
+.mob-soc-link:focus {
+  background-color: var(--items-active-color);
+}
+
+.mob-soc-icon {
+  fill: var(--team-section-color);
+}
+
 /* ================= HERO ==================== */
 
 .hero {
   position: relative;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   margin-left: auto;
   margin-right: auto;
 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero.jpg');
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile/hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  max-width: 100%;
 
   text-align: center;
 }
@@ -210,13 +365,13 @@ img {
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
-  width: 506px;
+  width: 329px;
   padding-right: 5px;
   padding-left: 5px;
 
   color: var(--btn-hero-color);
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 

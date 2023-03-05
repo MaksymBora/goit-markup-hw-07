@@ -1,0 +1,28 @@
+:root {
+  --menu-btn-color: #2e2f42;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 426px;
+    outline: 1px solid red;
+  }
+
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    border: none;
+  }
+
+  .menu-btn-icon {
+    display: inline-block;
+    fill: var(--menu-btn-color);
+  }
+
+  .main-nav {
+    justify-content: space-between;
+  }
+}
