@@ -1,7 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
-    outline: 1px solid tomato;
   }
 
   .menu-btn {
@@ -66,5 +65,59 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
+  }
+
+  /* Customers Section  */
+
+  .customets-list {
+    column-gap: 24px;
+  }
+
+  .customers-link {
+    width: 168px;
+  }
+
+  /* Footer */
+
+  .footer-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  .footer-wrapper > .footer-logo-part {
+    width: 264px;
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+
+  .logo.footer-logo {
+    text-align: left;
+  }
+
+  .footer-social-part {
+    margin-bottom: 102px;
+  }
+
+  .footer-social-part > .footer-social-title {
+    text-align: left;
+  }
+
+  .subscribe-form {
+    margin-left: 118px;
+  }
+
+  .subscribe-input-wrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .subscribe-input {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  .subscribe-btn {
   }
 }
