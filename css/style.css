@@ -157,18 +157,22 @@ img {
   margin-left: auto;
 }
 
-.contacts > .contacts-list {
+.contacts-list {
   display: flex;
+  flex-direction: column;
+  row-gap: 6px;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  padding-top: 24px;
+  padding-bottom: 12px;
   list-style: none;
 }
 
 .contacts-item > .contacts-link {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
 
   color: var(--primary-text-color);
   font-style: normal;
@@ -186,9 +190,9 @@ img {
   color: var(--logo-color);
 }
 
-.contacts-list .contacts-item:not(:first-child) {
+/* .contacts-list .contacts-item:not(:first-child) {
   margin-left: 40px;
-}
+} */
 
 /*===== Mobile Header =======*/
 
