@@ -68,4 +68,9 @@
   .customers-link {
     width: 130px;
   }
+
+  /* Modal */
+  .modal {
+    width: 310px;
+  }
 }

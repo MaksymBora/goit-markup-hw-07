@@ -959,8 +959,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
-  min-height: 576px;
+  width: 392px;
+  min-height: 586px;
   background-color: var(--modal-bg-color);
 
   padding-top: 72px;
