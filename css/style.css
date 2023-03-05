@@ -355,7 +355,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile/hero.jpg');
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile/hero-mob.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
