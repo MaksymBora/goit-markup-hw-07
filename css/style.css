@@ -608,24 +608,27 @@ img {
 
 .footer-main {
   background-color: var(--secondary-text-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-wrapper {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-wrapper > .footer-logo-part {
-  width: 264px;
-  margin-right: 120px;
+  width: 268px;
+  margin-bottom: 72px;
 }
 
 .logo.footer-logo {
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 16px;
+  text-align: center;
   color: var(--team-section-color);
 }
 
@@ -636,6 +639,9 @@ img {
 }
 
 /* Footer Social Part */
+.footer-social-part {
+  margin-bottom: 72px;
+}
 
 .footer-social-part > .footer-social-title {
   margin-top: 0;
@@ -646,6 +652,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--btn-hero-color);
+  text-align: center;
 }
 
 .footer-social-part > .footer-social-list {
@@ -681,8 +688,9 @@ img {
 }
 
 /* Subscribe Part */
+
 .subscribe-form {
-  margin-left: auto;
+  width: 100%;
 }
 
 .subscribe-info {
@@ -697,11 +705,11 @@ img {
 
 .subscribe-input-wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 .subscribe-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -709,7 +717,7 @@ img {
   background-color: inherit;
 
   padding-left: 16px;
-  margin-right: 24px;
+  margin-bottom: 16px;
 
   font-size: 12px;
   line-height: 2;
@@ -733,6 +741,7 @@ img {
 
 .subscribe-btn {
   display: inline-flex;
+  align-self: center;
   border: none;
   padding: 8px 24px;
   border-radius: 4px;
