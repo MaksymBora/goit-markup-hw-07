@@ -782,7 +782,9 @@ img {
 
 .filter-list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  row-gap: 24px;
   margin-top: 0;
   margin-bottom: 72px;
   padding-left: 0;
@@ -823,14 +825,14 @@ img {
 /* ============= Portfolio list ============= */
 
 .main-section {
-  padding-top: 97px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
-.container > .portfolio-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  row-gap: 48px;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
