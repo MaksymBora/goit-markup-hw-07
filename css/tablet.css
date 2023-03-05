@@ -56,7 +56,15 @@
     flex-basis: calc((100% - 24px) / 2);
   }
 
-  /* .section-item:not(:last-child) {
-    margin-right: 10px;
-  } */
+  /* Team Section */
+
+  .section.team-section {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
 }
