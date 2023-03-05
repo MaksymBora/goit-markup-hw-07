@@ -196,6 +196,11 @@ img {
   display: none;
 }
 
+.close-btn.mob-close-btn {
+  display: block;
+  padding: 0 7px;
+}
+
 .mob-menu {
   position: fixed;
   top: 0;

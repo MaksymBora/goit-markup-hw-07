@@ -16,6 +16,11 @@
     border: none;
   }
 
+  .close-btn.mob-close-btn {
+    display: block;
+    padding: 0 7px;
+  }
+
   .menu-btn-icon {
     display: inline-block;
     fill: var(--menu-btn-color);
@@ -58,6 +63,11 @@
 
   .mob-soc-list {
     gap: 38px;
+  }
+
+  .close-btn.mob-close-btn {
+    display: block;
+    padding: 0 7px;
   }
 
   /* Customers */
