@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
-    outline: 1px solid rebeccapurple;
+    outline: 1px solid red;
   }
 
   .menu-btn {
@@ -130,7 +130,6 @@
   /* Portfolio - Filters */
 
   .filter-list {
-    justify-content: center;
     margin-bottom: 64px;
   }
 

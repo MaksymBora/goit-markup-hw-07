@@ -198,6 +198,11 @@ img {
 
 .menu-btn {
   display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: none;
+  border: none;
 }
 
 .close-btn.mob-close-btn {
