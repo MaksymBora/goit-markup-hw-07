@@ -89,4 +89,31 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+
+  /* Footer */
+
+  .footer-main {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .footer-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .footer-wrapper > .footer-logo-part {
+    margin-right: 120px;
+  }
+
+  .footer-social-part {
+    margin-bottom: 0;
+  }
+
+  .subscribe-form {
+    margin-left: auto;
+  }
+
+  .subscribe-form {
+    width: auto;
+  }
 }
