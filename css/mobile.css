@@ -5,7 +5,6 @@
 @media screen and (min-width: 480px) {
   .container {
     width: 426px;
-    outline: 1px solid violet;
   }
 
   .menu-btn {
@@ -40,7 +39,6 @@
     padding-left: 10px;
     padding-right: 10px;
     width: 340px;
-    outline: 1px solid red;
   }
 
   img {
