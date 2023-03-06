@@ -152,7 +152,6 @@ img {
 /* ============ Address ========== */
 
 .contacts {
-  /* display: flex; */
   display: none;
   margin-left: auto;
 }
@@ -189,10 +188,6 @@ img {
 .contacts-item > .contacts-link:active {
   color: var(--logo-color);
 }
-
-/* .contacts-list .contacts-item:not(:first-child) {
-  margin-left: 40px;
-} */
 
 /*===== Mobile Header =======*/
 
