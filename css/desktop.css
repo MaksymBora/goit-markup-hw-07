@@ -116,4 +116,25 @@
   .subscribe-form {
     width: auto;
   }
+
+  /* Portfolio | Filter Section */
+
+  .filter-list {
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+
+  /* Portfolio */
+
+  .portfolio-list {
+    gap: 48px 24px;
+  }
+
+  .portfolio-img {
+    width: 360px;
+  }
+
+  .portfolio-list > .portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
 }
