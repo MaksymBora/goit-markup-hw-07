@@ -8,10 +8,6 @@
     outline: 1px solid violet;
   }
 
-  img {
-    width: 356px;
-  }
-
   .menu-btn {
     display: flex;
   }
@@ -28,6 +24,14 @@
 
   .main-nav {
     justify-content: space-between;
+  }
+
+  .portfolio-img {
+    width: 356px;
+  }
+
+  .portfolio-list {
+    justify-content: center;
   }
 }
 
