@@ -99,6 +99,7 @@
 
   .footer-wrapper {
     flex-wrap: nowrap;
+    padding-left: 0;
   }
 
   .footer-wrapper > .footer-logo-part {
