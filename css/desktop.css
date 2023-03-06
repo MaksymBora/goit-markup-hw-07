@@ -4,6 +4,11 @@
     outline: 1px solid teal;
   }
 
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .contacts-list {
     flex-direction: row;
   }
@@ -40,4 +45,31 @@
   }
 
   /* Advantages  */
+
+  .section-item-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 112px;
+
+    border-radius: 4px;
+    background-color: var(--team-section-color);
+  }
+
+  .ad-list {
+    flex-wrap: nowrap;
+  }
+
+  .section-item > .item-title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  /* Gallery */
+
+  .gallery-section {
+    display: block;
+    padding-top: 0;
+  }
 }

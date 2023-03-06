@@ -431,17 +431,6 @@ img {
   list-style: none;
 }
 
-/* .section-item-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
-  height: 112px;
-
-  border-radius: 4px;
-  background-color: var(--team-section-color);
-} */
-
 .section-item-icons {
   display: none;
 }
