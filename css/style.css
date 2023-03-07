@@ -1042,6 +1042,7 @@ img {
 
 .modal-form {
   display: flex;
+
   flex-direction: column;
 }
 
@@ -1130,6 +1131,7 @@ img {
 
 .modal-form-check-desc::before {
   display: block;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   content: '';
@@ -1151,6 +1153,7 @@ img {
 
 .modal-form-check-desc {
   display: flex;
+
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
