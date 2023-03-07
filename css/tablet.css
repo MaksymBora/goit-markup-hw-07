@@ -1,6 +1,9 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: none;
   }
 
   .menu-btn {
@@ -11,8 +14,13 @@
     display: flex;
   }
 
+  .main-nav {
+    justify-content: center;
+  }
+
   .contacts {
     display: flex;
+    margin-left: auto;
   }
 
   .hero {
@@ -62,6 +70,10 @@
 
   .section-item {
     flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .section-item > .item-title {
+    text-align: left;
   }
 
   /* Team Section */
@@ -123,6 +135,10 @@
     align-items: center;
   }
 
+  .subscribe-info {
+    text-align: left;
+  }
+
   .subscribe-input {
     width: 264px;
     margin-right: 24px;
@@ -131,19 +147,9 @@
 
   /* Modal */
 
-  @media screen and (orientation: landscape) {
-    /* .modal {
-      height: 600px;
-      max-height: 90vh;
-      overflow-y: scroll;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) scale(1);
-    } */
-  }
-
   .modal {
     width: 408px;
+    height: 586px;
     padding-left: 23px;
     padding-right: 25px;
   }
@@ -152,6 +158,7 @@
 
   .filter-list {
     margin-bottom: 64px;
+    justify-content: center;
   }
 
   .portfolio-list {

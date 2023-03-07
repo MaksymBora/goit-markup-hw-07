@@ -4,11 +4,8 @@
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 426px;
-  }
-
-  .menu-btn {
-    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .close-btn.mob-close-btn {
@@ -21,13 +18,7 @@
     fill: var(--menu-btn-color);
   }
 
-  .main-nav {
-    justify-content: space-between;
-  }
-
-  .portfolio-img {
-    width: 356px;
-  }
+  /* Portfolio */
 
   .portfolio-list {
     justify-content: center;
@@ -62,23 +53,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  img {
-    width: 100%;
-  }
   /* Header */
-
-  .main-nav {
-    justify-content: space-between;
-  }
-
-  .menu-btn {
-    display: flex;
-  }
 
   .menu-btn-icon {
     display: inline-block;
@@ -113,13 +88,5 @@
 
   .modal {
     width: 310px;
-  }
-
-  /* Filter */
-
-  .filter-btn {
-    font-size: 14px;
-    line-height: 1.33;
-    padding: 8px 12px;
   }
 }
