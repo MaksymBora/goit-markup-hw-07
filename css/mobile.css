@@ -80,6 +80,11 @@
     column-gap: 10px;
   }
 
+  .section-item > .item-title {
+    font-size: 32px;
+    line-height: 1.17;
+  }
+
   .customers-link {
     width: 130px;
   }
