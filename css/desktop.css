@@ -5,23 +5,23 @@
     padding-right: 15px;
   }
 
-  .contacts-item > .contacts-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-
   .contacts-list {
     padding-top: 0;
     padding-bottom: 0;
+    flex-direction: row;
+  }
+
+  .contacts-item > .contacts-link {
+    padding-top: 24px;
+    padding-bottom: 28px;
+
+    font-size: 16px;
+    line-height: 1.5;
   }
 
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-
-  .contacts-list {
-    flex-direction: row;
   }
 
   .contacts-list .contacts-item:not(:first-child) {
