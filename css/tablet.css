@@ -169,4 +169,9 @@
   .portfolio-list > .portfolio-item {
     flex-basis: calc((100% - 48px) / 2);
   }
+
+  .portfolio-img {
+    width: 356px;
+    max-width: none;
+  }
 }

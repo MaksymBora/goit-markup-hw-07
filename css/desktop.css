@@ -92,6 +92,10 @@
     line-height: 1.2;
   }
 
+  .section-item p {
+    font-weight: 400;
+  }
+
   /* Gallery */
 
   .gallery-section {
@@ -168,6 +172,7 @@
   /* Modal */
 
   .modal {
+    height: 584px;
     padding-left: 24px;
     padding-right: 24px;
   }
