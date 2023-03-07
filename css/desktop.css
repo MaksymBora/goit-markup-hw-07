@@ -3,6 +3,16 @@
     width: 1158px;
   }
 
+  .contacts-item > .contacts-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .contacts-list {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -29,18 +39,27 @@
   }
 
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop/desk-hero1x.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/desktop/desk-hero1x.jpg');
   }
 
-  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop/desk-hero2x.jpg');
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/desktop/desk-hero2x.jpg');
     }
   }
 
-  @media (min-device-pixel-ratio: 3), (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+  @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
     .hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop/desk-hero3x.jpg');
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/desktop/desk-hero3x.jpg');
     }
   }
 

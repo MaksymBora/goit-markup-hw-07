@@ -132,14 +132,14 @@
   /* Modal */
 
   @media screen and (orientation: landscape) {
-    .modal {
+    /* .modal {
       height: 600px;
       max-height: 90vh;
-      overflow: scroll;
-      top: 0;
+      overflow-y: scroll;
+      top: 50%;
       left: 50%;
-      transform: translate(-50%, 0) scale(1);
-    }
+      transform: translate(-50%, -50%) scale(1);
+    } */
   }
 
   .modal {
