@@ -17,7 +17,7 @@
 
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../images/tablet/tab-hero1x.jpg');
+      url('../images/desktop/desk-hero1x.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -26,7 +26,7 @@
     (min-resolution: 2dppx) {
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url('../images/tablet/tab-hero2x.jpg');
+        url('../images/desktop/desk-hero2x.jpg');
     }
   }
 
@@ -36,14 +36,14 @@
     (min-resolution: 3dppx) {
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url('../images/tablet/tab-hero3x.jpg');
+        url('../images/desktop/desk-hero3x.jpg');
     }
   }
 
   .container > .hero-title {
     font-size: 56px;
     line-height: calc(60 / 56);
-
+    margin-bottom: 60px;
     width: 510px;
   }
 

@@ -34,8 +34,9 @@
     max-width: 1440px;
   }
 
-  .hero-title {
-    width: 486px;
+  .container .hero-title {
+    width: 506px;
+    margin-bottom: 48px;
   }
 
   .hero {
