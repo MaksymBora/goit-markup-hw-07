@@ -214,8 +214,8 @@ img {
   padding-top: 80px;
   padding-bottom: 40px;
   z-index: 999;
-
   background-color: var(--btn-hero-color);
+
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -370,15 +370,23 @@ img {
   text-align: center;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile/hero-mob2x.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/mobile/hero-mob2x.jpg');
   }
 }
 
-@media (min-device-pixel-ratio: 3), (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+@media (min-device-pixel-ratio: 3),
+  (-webkit-min-device-pixel-ratio: 3),
+  (min-resolution: 288dpi),
+  (min-resolution: 3dppx) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile/hero-mob3x.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/mobile/hero-mob3x.jpg');
   }
 }
 
@@ -387,7 +395,7 @@ img {
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
-  width: 329px;
+
   padding-right: 5px;
   padding-left: 5px;
 
@@ -440,13 +448,16 @@ img {
 .ad-list p {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .section-item > .item-title {
   margin-top: 0;
   margin-bottom: 8px;
 
-  font-size: 16px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
 /* ============ Gallery ============ */
@@ -713,6 +724,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--btn-hero-color);
+  text-align: center;
 }
 
 .subscribe-input-wrapper {
@@ -818,7 +830,8 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
