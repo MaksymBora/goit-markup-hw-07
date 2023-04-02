@@ -1,8 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
-    padding-left: 15px;
-    padding-right: 15px;
     max-width: none;
   }
 
@@ -167,7 +165,7 @@
   }
 
   .portfolio-list > .portfolio-item {
-    flex-basis: calc((100% - 48px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .portfolio-img {

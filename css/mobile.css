@@ -3,11 +3,6 @@
 }
 
 @media screen and (min-width: 480px) {
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .close-btn.mob-close-btn {
     display: block;
     padding: 0 7px;
@@ -22,6 +17,12 @@
 
   .portfolio-list {
     justify-content: center;
+  }
+
+  /* Modal */
+
+  .modal {
+    width: 392px;
   }
 }
 
@@ -92,6 +93,6 @@
   /* Modal */
 
   .modal {
-    width: 310px;
+    min-width: 310px;
   }
 }
